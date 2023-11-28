@@ -28,6 +28,7 @@
             align-items: center;
             box-shadow: 0px 10px 31px rgba(255, 255, 255, 0.4);
             border-bottom: 3px solid #F2C4BA;
+            z-index: 9999;
         }
 
         ul {
@@ -154,6 +155,11 @@
                 width: 25%;
                 background-color : #E8EDDF;
             }
+            .column.side.inflasi {
+                height: 1500px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
             .column.side.home.index {
                 height: 420px;
                 width: 25%;
@@ -189,18 +195,47 @@
                 width: 25%;
                 background-color : #E8EDDF;
             }
+            .column.side.pembangunan {
+                height: 1100px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.lingkaran {
+                height: 1200px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
 
 
 
 
 
             /* Middle column */
+            .column.main.lingkaran {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1200px;
+            background-color : #E2EAF3;
+            }
             .column.main.kebebasan {
                 text-align: left;
                 padding: 20px;
             width: 75%;
             height: 580px;
             background-color : #E2EAF3;
+            }
+            .column.main.inflasi {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1500px;
+            }
+            .column.main.pembangunan {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1100px;
             }
             .column.main.kerajaan {
                 text-align: left;
